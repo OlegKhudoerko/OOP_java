@@ -1,5 +1,2 @@
-package oop_lesson1;
-
-public class Сhildren extends Human{
-
+package oop_lesson1;public class Сhildren {
 }
