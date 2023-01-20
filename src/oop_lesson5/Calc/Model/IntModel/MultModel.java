@@ -1,14 +1,14 @@
-package oop_lesson5.Calc.Model;
+package oop_lesson5.Calc.Model.IntModel;
 
-public class SumModel extends CalcModel {
-    public SumModel() {
 
+public class MultModel extends CalcModel {
+
+    public MultModel() {
     }
 
-    // do_it
     @Override
     public int result() {
-        return x + y;
+        return x * y;
     }
 
     @Override
@@ -20,4 +20,6 @@ public class SumModel extends CalcModel {
     public void setY(int value) {
         super.y = value;
     }
+
+
 }

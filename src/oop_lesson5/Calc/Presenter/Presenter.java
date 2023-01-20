@@ -4,7 +4,6 @@ import oop_lesson5.Calc.Controller.DivController;
 import oop_lesson5.Calc.Controller.MultController;
 import oop_lesson5.Calc.Controller.SubController;
 import oop_lesson5.Calc.Controller.SumController;
-import oop_lesson5.Calc.Logg;
 import oop_lesson5.Calc.View.Menu;
 
 import java.util.Scanner;

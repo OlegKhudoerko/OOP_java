@@ -1,4 +1,4 @@
-package oop_lesson5.Calc;
+package oop_lesson5.Calc.LogCalc;
 
 import java.util.logging.Logger;
 

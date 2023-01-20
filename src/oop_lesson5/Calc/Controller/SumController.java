@@ -1,6 +1,6 @@
 package oop_lesson5.Calc.Controller;
 
-import oop_lesson5.Calc.Model.SumModel;
+import oop_lesson5.Calc.Model.IntModel.SumModel;
 import oop_lesson5.Calc.View.View;
 
 public class SumController {

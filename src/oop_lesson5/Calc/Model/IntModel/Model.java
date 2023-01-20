@@ -1,4 +1,4 @@
-package oop_lesson5.Calc.Model;
+package oop_lesson5.Calc.Model.IntModel;
 
 public interface Model {
 

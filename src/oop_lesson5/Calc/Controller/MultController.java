@@ -1,6 +1,6 @@
 package oop_lesson5.Calc.Controller;
 
-import oop_lesson5.Calc.Model.MultModel;
+import oop_lesson5.Calc.Model.IntModel.MultModel;
 import oop_lesson5.Calc.View.View;
 
 public class MultController {

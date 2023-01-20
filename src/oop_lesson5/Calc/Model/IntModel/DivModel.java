@@ -1,11 +1,14 @@
-package oop_lesson5.Calc.Model;
+package oop_lesson5.Calc.Model.IntModel;
 
-public class SubModel extends CalcModel {
-    public SubModel() {
+
+public class DivModel extends CalcModel {
+
+    public DivModel() {
     }
+
     @Override
     public int result() {
-        return x - y;
+        return x / y;
     }
 
     @Override
@@ -17,5 +20,4 @@ public class SubModel extends CalcModel {
     public void setY(int value) {
         super.y = value;
     }
-
 }

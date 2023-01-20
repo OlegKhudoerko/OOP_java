@@ -1,6 +1,6 @@
 package oop_lesson5.Calc.Controller;
 
-import oop_lesson5.Calc.Model.SubModel;
+import oop_lesson5.Calc.Model.IntModel.SubModel;
 import oop_lesson5.Calc.View.View;
 
 public class SubController {
