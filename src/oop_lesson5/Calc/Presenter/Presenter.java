@@ -4,6 +4,7 @@ import oop_lesson5.Calc.Controller.DivController;
 import oop_lesson5.Calc.Controller.MultController;
 import oop_lesson5.Calc.Controller.SubController;
 import oop_lesson5.Calc.Controller.SumController;
+import oop_lesson5.Calc.Logg;
 import oop_lesson5.Calc.View.Menu;
 
 import java.util.Scanner;
@@ -33,8 +34,11 @@ public class Presenter {
 
     public void start() {
 
+
+
         while (true) {
             switch (menu.selectFunction()) {
+
                 case "1" -> // сложение
                         sumController.Sum();
                 case "2" -> // вычитание

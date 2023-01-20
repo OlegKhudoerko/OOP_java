@@ -16,7 +16,7 @@ import oop_lesson5.Calc.View.View;
 import java.util.Scanner;
 
 public class Program {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
         View view = new View();
         Presenter p = new Presenter(
@@ -28,6 +28,9 @@ public class Program {
                 new Menu(scanner));
 
         p.start();
+
+
+
 
 
     }

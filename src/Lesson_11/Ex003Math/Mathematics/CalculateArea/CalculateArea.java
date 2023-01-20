@@ -2,7 +2,7 @@ package Ex003Math.Mathematics.CalculateArea;
 
 import Ex003Math.Mathematics.Shapes.Shape;
 
-public class CalculateArea implements Calculate {
+public class CalculateArea implements Ex003Math.Mathematics.CalculateArea.Calculate {
 
     private static CalculateArea instance;
     // static {
