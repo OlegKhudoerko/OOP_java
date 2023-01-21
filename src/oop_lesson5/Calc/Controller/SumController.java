@@ -18,6 +18,6 @@ public class SumController {
         model.setX(a);
         model.setY(b);
         int result = model.result();
-        view.print(result, "Сумма: ");
+        view.print(result, "Сумма: "); //вывод msg(...)
     }
 }

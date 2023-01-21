@@ -17,6 +17,6 @@ public class SubController {
         subModel.setX(a);
         subModel.setY(b);
         int result = subModel.result();
-        view.print(result, "Разность: ");
+        view.print(result, "Разность: "); //вывод msg(...)
     }
 }

@@ -9,7 +9,7 @@ public class Menu {
         this.scanner = scanner;
     }
 
-    public String selectFunction() {
+    public String selectFunction() {// Ввывод через msg, с учетом языка...
         System.out.print("""
                 --------------------------------------
                 Выберите действие:
@@ -18,6 +18,7 @@ public class Menu {
                 2. вычитание
                 3. деление
                 4. умножение
+                5. операции с комплексными числами
                 --------------------------------------
                 0. Выход
                 """);

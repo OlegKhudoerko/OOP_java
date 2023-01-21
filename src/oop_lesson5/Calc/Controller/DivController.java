@@ -18,6 +18,6 @@ public class DivController {
         divModel.setX(a);
         divModel.setY(b);
         int result = divModel.result();
-        view.print(result, "Частное: ");
+        view.print(result, "Частное: "); //вывод msg(...)
     }
 }

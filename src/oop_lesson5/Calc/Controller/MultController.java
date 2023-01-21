@@ -18,6 +18,6 @@ public class MultController {
         multModel.setX(a);
         multModel.setY(b);
         int result = multModel.result();
-        view.print(result, "Произведение: ");
+        view.print(result, "Произведение: "); //вывод msg(...)
     }
 }

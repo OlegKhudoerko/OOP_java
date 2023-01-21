@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class View {
     Scanner in = new Scanner(System.in);
 
+  // необходимо добавить анализ входных данных int или Double...
+  // вывести печать сообщений в отдельный класс (вдруг на китайском надо будет)
     public int getValue() {
         System.out.println("Введите число: ");
         int val;
